@@ -8,7 +8,7 @@ LABEL VERSION=1.0 \
 
 ARG REDIS_DOWNLOAD_URL="https://download.redis.io/releases/"
 
-ARG REDIS_VERSION="5.0.10"
+ARG REDIS_VERSION="6.0.10"
 
 RUN addgroup -S -g 1001 redis && adduser -S -G redis -u 1001 redis && \
     apk add --no-cache su-exec tzdata make curl build-base linux-headers bash
