@@ -6,7 +6,7 @@ LABEL VERSION=1.0 \
       ARCH=AMD64 \
       DESCRIPTION="A production grade performance tuned redis docker image created by Opstree Solutions"
 
-ARG REDIS_DOWNLOAD_URL="http://download.redis.io/"
+ARG REDIS_DOWNLOAD_URL="https://download.redis.io/releases/"
 
 ARG REDIS_VERSION="stable"
 
